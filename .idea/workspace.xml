@@ -10,8 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa918d3a-4b2f-49fb-bd0c-003a33e64829" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CircularBuffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/CircularBuffer.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Item.h" beforeDir="false" afterPath="$PROJECT_DIR$/Item.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ItemDistanceTest" beforeDir="false" afterPath="$PROJECT_DIR$/ItemDistanceTest" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,44 +47,44 @@
         <counts>
           <entry key="BasicItemTest" value="1" />
           <entry key="cpp" value="8" />
-          <entry key="h" value="3" />
+          <entry key="h" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="11" />
+          <entry key="ObjectiveC" value="12" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cpp" value="114" />
-          <entry key="h" value="1285" />
+          <entry key="h" value="1882" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="1399" />
+          <entry key="ObjectiveC" value="1996" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Item.h">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CircularBuffer.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+            <state relative-caret-position="930">
+              <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CircularBuffer.h">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SimpleVector.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="223">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -124,8 +124,8 @@
       <list>
         <option value="$PROJECT_DIR$/BasicItemTest.cpp" />
         <option value="$PROJECT_DIR$/ItemPrintTest.cpp" />
-        <option value="$PROJECT_DIR$/CircularBuffer.h" />
         <option value="$PROJECT_DIR$/Item.h" />
+        <option value="$PROJECT_DIR$/CircularBuffer.h" />
       </list>
     </option>
   </component>
@@ -188,16 +188,15 @@
       <option name="presentableId" value="Default" />
       <updated>1538399429512</updated>
       <workItem from="1538399435891" duration="5057000" />
-      <workItem from="1538484376189" duration="10343000" />
+      <workItem from="1538484376189" duration="14939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15400000" />
+    <option name="totallyTimeSpent" value="19996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="126" y="38" width="1400" height="987" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -246,13 +245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CircularBuffer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BasicItemTest.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -267,8 +259,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Item.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        <state relative-caret-position="990">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CircularBuffer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimpleVector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="9" />
         </state>
       </provider>
     </entry>

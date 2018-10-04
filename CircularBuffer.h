@@ -18,28 +18,53 @@
 class CircularBuffer {
 
 private:
+    SimpleVector<char> cBuffer;
+    int counter;
+    int addPosition;
+    int removePosition;
 
 
 public:
 
-    CircularBuffer(int size){
-
-    }
+    CircularBuffer(int size)
+        : cBuffer(size), addPosition(0), removePosition(0)
+    {}
 
     int count(){
-
+        return counter;
     }
 
     bool full(){
-
+        if (counter == cBuffer.size()){
+            return true;
+        }
+        else {
+            return false;
+        }
     }
 
-    void add(int element){
+    void add(char element){
+        if (addPosition == cBuffer.size()){
+            addPosition = 0;
+        }
 
+        cBuffer[addPosition] = element;
+
+        counter++;
+        addPosition++;
     }
 
-    void remove(){
+    char remove(){
+        if (removePosition == cBuffer.size()){
+            removePosition = 0;
+        }
 
+
+        char removed = cBuffer[removePosition];
+
+        counter--;
+        removePosition++;
+        return removed;
     }
 
 };

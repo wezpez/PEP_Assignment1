@@ -46,7 +46,7 @@ public:
     double distanceTo(Item item1){
 
         int R = 6373000; // The radius of the Earth
-        
+
 
 
         double dlon = degreesToRadians(item1.getLongitude()) - degreesToRadians(getLongitude());
