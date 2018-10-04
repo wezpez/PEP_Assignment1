@@ -46,20 +46,13 @@ public:
     double distanceTo(Item item1){
 
         int R = 6373000; // The radius of the Earth
-
-        /*
-         * dlon = lon2 - lon1
-           dlat = lat2 - lat1
-           a = pow((sin(dlat/2)), 2) + cos(lat1) * cos(lat2) * pow((sin(dlon/2)), 2)
-           c = 2 * atan2( sqrt(a), sqrt(1-a) )
-           distance = R * c (where R is the radius of the Earth)
-         */
+        
 
 
         double dlon = degreesToRadians(item1.getLongitude()) - degreesToRadians(getLongitude());
         double dlat = degreesToRadians(item1.getLatitude()) - degreesToRadians(getLatitude());
-        double a = pow((sin(dlat/2)), 2) + cos(getLatitude()) * cos(item1.getLatitude()) * pow((sin(dlon/2)), 2);
-        double c = 2 * atan2( sqrt(a), sqrt(1-a) );
+        double a = pow((sin(dlat/2)), 2) + cos(degreesToRadians(getLatitude())) * cos(degreesToRadians(item1.getLatitude())) * pow((sin(dlon/2)), 2);
+        double c = 2 * atan2( sqrt(a), sqrt(1 -a) );
         double distance = R * c;
         return distance;
 
