@@ -27,7 +27,7 @@ private:
 public:
 
     CircularBuffer(int size)
-        : cBuffer(size), addPosition(0), removePosition(0)
+        : cBuffer(size), addPosition(0), removePosition(0), counter(0)
     {}
 
     int count(){
