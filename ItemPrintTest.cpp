@@ -21,7 +21,6 @@ int main() {
         str << strand << londonEye;
         
         string s = str.str();
-        cout << s;
         if (s == "{51.5115, -0.116, \"StrandCampus\", 600}{51.5033, -0.1195, \"LondonEye\", 700}") {
             cout << "0: Pass - operator<< gives the correct output\n";
         } else {

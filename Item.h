@@ -2,6 +2,7 @@
 #define ITEM_H
 
 #include <iostream>
+#include <cmath>
 using std::ostream;
 using std::string;
 
@@ -9,7 +10,6 @@ using std::string;
 
 class Item {
 
-   // friend ostream& operator<<(ostream &o, const  Item& item);
 
 private:
     double latitude;
@@ -41,6 +41,34 @@ public:
 
     int getTime(){
         return time;
+    }
+
+    double distanceTo(Item item1){
+
+        int R = 6373000; // The radius of the Earth
+
+        /*
+         * dlon = lon2 - lon1
+           dlat = lat2 - lat1
+           a = pow((sin(dlat/2)), 2) + cos(lat1) * cos(lat2) * pow((sin(dlon/2)), 2)
+           c = 2 * atan2( sqrt(a), sqrt(1-a) )
+           distance = R * c (where R is the radius of the Earth)
+         */
+
+
+        double dlon = degreesToRadians(item1.getLongitude()) - degreesToRadians(getLongitude());
+        double dlat = degreesToRadians(item1.getLatitude()) - degreesToRadians(getLatitude());
+        double a = pow((sin(dlat/2)), 2) + cos(getLatitude()) * cos(item1.getLatitude()) * pow((sin(dlon/2)), 2);
+        double c = 2 * atan2( sqrt(a), sqrt(1-a) );
+        double distance = R * c;
+        return distance;
+
+
+    }
+
+    double degreesToRadians(double valueToConvert){
+        double result = valueToConvert * ( M_PI / 180 );
+        return result;
     }
 
 

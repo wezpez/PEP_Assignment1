@@ -17,6 +17,31 @@
  */
 class CircularBuffer {
 
+private:
+
+
+public:
+
+    CircularBuffer(int size){
+
+    }
+
+    int count(){
+
+    }
+
+    bool full(){
+
+    }
+
+    void add(int element){
+
+    }
+
+    void remove(){
+
+    }
+
 };
 
 
