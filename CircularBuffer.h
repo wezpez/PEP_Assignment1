@@ -65,7 +65,7 @@ public:
         counter--;
         removePosition++;
         return removed;
-        
+
     }
 
 };
