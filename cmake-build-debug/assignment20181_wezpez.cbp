@@ -85,7 +85,7 @@
 		<Unit filename="/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/NearlySorted.h">
 			<Option target="assignment20181_wezpez"/>
 		</Unit>
-		<Unit filename="/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/TestNearlySorted.cpp">
+		<Unit filename="/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/TestCircularBuffer.cpp">
 			<Option target="assignment20181_wezpez"/>
 		</Unit>
 		<Unit filename="/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/CMakeLists.txt">

@@ -123,32 +123,32 @@ assignment20181_wezpez/fast:
 	$(MAKE) -f CMakeFiles/assignment20181_wezpez.dir/build.make CMakeFiles/assignment20181_wezpez.dir/build
 .PHONY : assignment20181_wezpez/fast
 
-TestNearlySorted.o: TestNearlySorted.cpp.o
+TestCircularBuffer.o: TestCircularBuffer.cpp.o
 
-.PHONY : TestNearlySorted.o
+.PHONY : TestCircularBuffer.o
 
 # target to build an object file
-TestNearlySorted.cpp.o:
-	$(MAKE) -f CMakeFiles/assignment20181_wezpez.dir/build.make CMakeFiles/assignment20181_wezpez.dir/TestNearlySorted.cpp.o
-.PHONY : TestNearlySorted.cpp.o
+TestCircularBuffer.cpp.o:
+	$(MAKE) -f CMakeFiles/assignment20181_wezpez.dir/build.make CMakeFiles/assignment20181_wezpez.dir/TestCircularBuffer.cpp.o
+.PHONY : TestCircularBuffer.cpp.o
 
-TestNearlySorted.i: TestNearlySorted.cpp.i
+TestCircularBuffer.i: TestCircularBuffer.cpp.i
 
-.PHONY : TestNearlySorted.i
+.PHONY : TestCircularBuffer.i
 
 # target to preprocess a source file
-TestNearlySorted.cpp.i:
-	$(MAKE) -f CMakeFiles/assignment20181_wezpez.dir/build.make CMakeFiles/assignment20181_wezpez.dir/TestNearlySorted.cpp.i
-.PHONY : TestNearlySorted.cpp.i
+TestCircularBuffer.cpp.i:
+	$(MAKE) -f CMakeFiles/assignment20181_wezpez.dir/build.make CMakeFiles/assignment20181_wezpez.dir/TestCircularBuffer.cpp.i
+.PHONY : TestCircularBuffer.cpp.i
 
-TestNearlySorted.s: TestNearlySorted.cpp.s
+TestCircularBuffer.s: TestCircularBuffer.cpp.s
 
-.PHONY : TestNearlySorted.s
+.PHONY : TestCircularBuffer.s
 
 # target to generate assembly for a file
-TestNearlySorted.cpp.s:
-	$(MAKE) -f CMakeFiles/assignment20181_wezpez.dir/build.make CMakeFiles/assignment20181_wezpez.dir/TestNearlySorted.cpp.s
-.PHONY : TestNearlySorted.cpp.s
+TestCircularBuffer.cpp.s:
+	$(MAKE) -f CMakeFiles/assignment20181_wezpez.dir/build.make CMakeFiles/assignment20181_wezpez.dir/TestCircularBuffer.cpp.s
+.PHONY : TestCircularBuffer.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... assignment20181_wezpez"
-	@echo "... TestNearlySorted.o"
-	@echo "... TestNearlySorted.i"
-	@echo "... TestNearlySorted.s"
+	@echo "... TestCircularBuffer.o"
+	@echo "... TestCircularBuffer.i"
+	@echo "... TestCircularBuffer.s"
 .PHONY : help
 
 

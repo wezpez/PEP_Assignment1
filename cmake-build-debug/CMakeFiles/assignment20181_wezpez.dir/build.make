@@ -57,27 +57,27 @@ include CMakeFiles/assignment20181_wezpez.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/assignment20181_wezpez.dir/flags.make
 
-CMakeFiles/assignment20181_wezpez.dir/TestNearlySorted.cpp.o: CMakeFiles/assignment20181_wezpez.dir/flags.make
-CMakeFiles/assignment20181_wezpez.dir/TestNearlySorted.cpp.o: ../TestNearlySorted.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/assignment20181_wezpez.dir/TestNearlySorted.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment20181_wezpez.dir/TestNearlySorted.cpp.o -c /Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/TestNearlySorted.cpp
+CMakeFiles/assignment20181_wezpez.dir/TestCircularBuffer.cpp.o: CMakeFiles/assignment20181_wezpez.dir/flags.make
+CMakeFiles/assignment20181_wezpez.dir/TestCircularBuffer.cpp.o: ../TestCircularBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/assignment20181_wezpez.dir/TestCircularBuffer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/assignment20181_wezpez.dir/TestCircularBuffer.cpp.o -c /Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/TestCircularBuffer.cpp
 
-CMakeFiles/assignment20181_wezpez.dir/TestNearlySorted.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment20181_wezpez.dir/TestNearlySorted.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/TestNearlySorted.cpp > CMakeFiles/assignment20181_wezpez.dir/TestNearlySorted.cpp.i
+CMakeFiles/assignment20181_wezpez.dir/TestCircularBuffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment20181_wezpez.dir/TestCircularBuffer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/TestCircularBuffer.cpp > CMakeFiles/assignment20181_wezpez.dir/TestCircularBuffer.cpp.i
 
-CMakeFiles/assignment20181_wezpez.dir/TestNearlySorted.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment20181_wezpez.dir/TestNearlySorted.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/TestNearlySorted.cpp -o CMakeFiles/assignment20181_wezpez.dir/TestNearlySorted.cpp.s
+CMakeFiles/assignment20181_wezpez.dir/TestCircularBuffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment20181_wezpez.dir/TestCircularBuffer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/TestCircularBuffer.cpp -o CMakeFiles/assignment20181_wezpez.dir/TestCircularBuffer.cpp.s
 
 # Object files for target assignment20181_wezpez
 assignment20181_wezpez_OBJECTS = \
-"CMakeFiles/assignment20181_wezpez.dir/TestNearlySorted.cpp.o"
+"CMakeFiles/assignment20181_wezpez.dir/TestCircularBuffer.cpp.o"
 
 # External object files for target assignment20181_wezpez
 assignment20181_wezpez_EXTERNAL_OBJECTS =
 
-assignment20181_wezpez: CMakeFiles/assignment20181_wezpez.dir/TestNearlySorted.cpp.o
+assignment20181_wezpez: CMakeFiles/assignment20181_wezpez.dir/TestCircularBuffer.cpp.o
 assignment20181_wezpez: CMakeFiles/assignment20181_wezpez.dir/build.make
 assignment20181_wezpez: CMakeFiles/assignment20181_wezpez.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable assignment20181_wezpez"

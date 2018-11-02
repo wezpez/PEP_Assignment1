@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/assignment20181_wezpez.dir/TestNearlySorted.cpp.o"
+  "CMakeFiles/assignment20181_wezpez.dir/TestCircularBuffer.cpp.o"
   "assignment20181_wezpez.pdb"
   "assignment20181_wezpez"
 )

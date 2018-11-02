@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/TestNearlySorted.cpp" "/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/cmake-build-debug/CMakeFiles/assignment20181_wezpez.dir/TestNearlySorted.cpp.o"
+  "/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/TestCircularBuffer.cpp" "/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/cmake-build-debug/CMakeFiles/assignment20181_wezpez.dir/TestCircularBuffer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
