@@ -7,4 +7,4 @@ include_directories(.)
 
 add_executable(assignment20181_wezpez
         NearlySorted.h
-        TestCircularBuffer.cpp)
+        testNearlySorted.cpp)

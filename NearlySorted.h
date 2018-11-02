@@ -5,6 +5,7 @@
 #include <vector>
 #include <iostream>
 using std::vector;
+using std::is_sorted;
 
 /** @brief Class that describes how to sort a nearly-sorted vector */
 class HowToSort {
@@ -72,7 +73,7 @@ HowToSort nearlySorted(vector<int> sortVector) {
     int firstE = 0;
     int secondE = 0;
 
-    if (std::is_sorted(sortVector.begin(),sortVector.end())){
+    if (is_sorted(sortVector.begin(),sortVector.end())){
         return HowToSort(0,0,true);
     }
 
@@ -96,7 +97,7 @@ HowToSort nearlySorted(vector<int> sortVector) {
     std::swap(sortVector[firstE], sortVector[secondE]);
 
     //check if that sorted the vector
-    if (std::is_sorted(sortVector.begin(),sortVector.end())){
+    if (is_sorted(sortVector.begin(),sortVector.end())){
         return HowToSort(firstE, secondE, true);
     }
     else {
@@ -109,7 +110,7 @@ HowToSort nearlySorted(vector<int> sortVector) {
     std::reverse(sortVector.begin() + firstE, sortVector.end() - ((sortVector.size() - 1) - secondE));
 
     //check if that sorted the vector
-    if (std::is_sorted(sortVector.begin(),sortVector.end())){
+    if (is_sorted(sortVector.begin(),sortVector.end())){
         return HowToSort(firstE, secondE, false);
     }
     else {

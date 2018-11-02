@@ -6,19 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/CircularBuffer.h
-SimpleVector.h
-/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/SimpleVector.h
+/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/NearlySorted.h
+vector
+-
 iostream
 -
 
-/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/SimpleVector.h
-
-/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/TestCircularBuffer.cpp
-CircularBuffer.h
-/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/CircularBuffer.h
+/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/testNearlySorted.cpp
+NearlySorted.h
+/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/NearlySorted.h
 iostream
--
-string
 -
 
