@@ -6,5 +6,7 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(assignment20181_wezpez
+        item.h
+        circularBuffer.h
         NearlySorted.h
         testNearlySorted.cpp)

@@ -11,6 +11,8 @@ vector
 -
 iostream
 -
+algorithm
+-
 
 /Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/testNearlySorted.cpp
 NearlySorted.h
