@@ -3,6 +3,7 @@
 
 
 #include <vector>
+#include <iostream>
 using std::vector;
 
 /** @brief Class that describes how to sort a nearly-sorted vector */
@@ -66,7 +67,58 @@ public:
     
 };
 
-// TODO your code goes here:
+
+HowToSort nearlySorted(vector<int> sortVector) {
+    int firstE = 0;
+    int secondE = 0;
+
+    if (std::is_sorted(sortVector.begin(),sortVector.end())){
+        return HowToSort(0,0,true);
+    }
+
+    //find the first element
+    for (int index = 0; index < sortVector.size() - 1; index++){
+        if (sortVector[index] > sortVector[index+1]){
+            firstE = index;
+            break;
+        }
+    }
+
+    //find the second element
+    for (int index = sortVector.size() - 1; index > 1; index--){
+        if (sortVector[index] < sortVector[index-1]){
+            secondE = index;
+            break;
+        }
+    }
+
+    //try and swap elements
+    std::swap(sortVector[firstE], sortVector[secondE]);
+
+    //check if that sorted the vector
+    if (std::is_sorted(sortVector.begin(),sortVector.end())){
+        return HowToSort(firstE, secondE, true);
+    }
+    else {
+        // swap elements back
+        std::swap(sortVector[firstE], sortVector[secondE]);
+    }
+
+
+    //try and reverse elements
+    std::reverse(sortVector.begin() + firstE, sortVector.end() - ((sortVector.size() - 1) - secondE));
+
+    //check if that sorted the vector
+    if (std::is_sorted(sortVector.begin(),sortVector.end())){
+        return HowToSort(firstE, secondE, false);
+    }
+    else {
+        // in this case trying to swap or reverse did not work so the vector is not nearly sorted
+        return HowToSort();
+    }
+
+}
+
 
 
 

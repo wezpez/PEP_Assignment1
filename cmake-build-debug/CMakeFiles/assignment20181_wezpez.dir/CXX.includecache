@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/NearlySorted.h
+vector
+-
+iostream
+-
+
+/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/TestNearlySorted.cpp
+NearlySorted.h
+/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/NearlySorted.h
+iostream
+-
+

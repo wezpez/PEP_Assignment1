@@ -1,0 +1,3 @@
+/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/patrickwhyte/Documents/GitHub/assignment20181-wezpez/cmake-build-debug/CMakeFiles/assignment20181_wezpez.dir
